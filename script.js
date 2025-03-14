@@ -5,7 +5,7 @@ let msgs = [
     { pseudo: "Charlie", msg: "I love cats", date: new Date().toLocaleString() }
 ];
 
-const SERVER_URL = "https://72e0c51e-1aa7-49e7-bc11-8bf07b145ccf-00-180hy2khgjapt.janeway.replit.dev";
+const SERVER_URL = "https://tp-archiapp-serveur-messageboard.onrender.com";
 
 // 🟢 Liste locale des messages (vide au départ)
 let messages = [];
