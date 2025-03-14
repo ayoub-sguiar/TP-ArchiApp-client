@@ -1,13 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>so empty</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-  <p>I am so empty...</p>
-  </body>
-  <script src="script.js"></script>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dépot de Messages</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Dépot de Messages</h1>
+    </header>
+
+    <section>
+        <h2>Messages</h2>
+        <ul id="message-list">
+        </ul>
+    </section>
+
+    <section>
+        <h2>Poster un message</h2>
+        <div class="message-input">
+            <input type="text" id="pseudo" placeholder="Votre pseudo">
+            <textarea id="new-message" placeholder="Écrivez votre message ici..."></textarea>
+            <button id="send-message">Envoyer</button>
+        </div>
+
+        <!-- Boutons Update et Changer de Style côte à côte -->
+        <div class="button-group">
+            <button id="update-messages">Update</button>
+            <button id="toggle-style">Changer le style</button>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
 </html>

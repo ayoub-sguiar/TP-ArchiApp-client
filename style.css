@@ -1,0 +1,141 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+header {
+  background: #007BFF;
+  color: white;
+  padding: 10px;
+  font-size: 24px;
+}
+
+h2 {
+  color: #007BFF;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: white;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+textarea, input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: white;
+}
+
+.dark-mode header {
+  background: #444;
+}
+
+.dark-mode {
+  background-color: #222;
+  color: white;
+}
+
+.dark-mode header {
+  background: #444;
+}
+
+.dark-mode li {
+  background: #555;
+  color: white;
+}
+
+/* Centrer uniquement la zone de texte et le champ pseudo */
+.message-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Styliser l'input et textarea */
+#pseudo, #new-message {
+    width: 50%;
+    max-width: 500px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Bouton "Envoyer" bien placé sous la zone de texte */
+#send-message {
+    background-color: #007BFF; /* Bleu */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 50%;
+    max-width: 500px;
+}
+
+#send-message:hover {
+    background-color: #0056b3; /* Bleu plus foncé au survol */
+}
+
+/* Mettre "Update" et "Changer le style" côte à côte */
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espacement entre les boutons */
+    margin-top: 15px;
+}
+
+.button-group button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Style des boutons Update et Changer de style */
+#update-messages {
+    background-color: #28a745; /* Vert */
+    color: white;
+}
+
+#update-messages:hover {
+    background-color: #218838;
+}
+
+#toggle-style {
+    background-color: #ff9800; /* Orange */
+    color: white;
+}
+
+#toggle-style:hover {
+    background-color: #e68900;
+}
